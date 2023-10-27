@@ -1,0 +1,96 @@
+/* MEDIA QUERY FOR THE FORM */
+
+/* for laptop m */
+@media screen and (max-width: 1460px) {
+  .container {
+    transform: scale(0.9);
+  }
+}
+
+/* for tablets */
+@media screen and (max-width: 768px) {
+  .slider {
+    display: none;
+  }
+}
+
+/* for mobile l */
+@media screen and (max-width: 450px) {
+  .slider {
+    display: none;
+  }
+
+  .container {
+    transform: scale(0.9);
+  }
+}
+
+/* for mobile m */
+@media screen and (max-width: 400px) {
+  .slider {
+    display: none;
+  }
+
+  .container {
+    transform: scale(0.85);
+  }
+}
+
+/* for mobile s */
+@media screen and (max-width: 380px) {
+  .slider {
+    display: none;
+  }
+
+  .container {
+    transform: scale(0.8);
+  }
+}
+
+/* for mobile xs */
+@media screen and (max-width: 320px) {
+  .slider {
+    display: none;
+  }
+
+  .container {
+    transform: scale(0.7);
+  }
+}
+
+/* CLOSING MEDIA QUERY FOR THE FORM */
+
+/* MEDIA QUERY FOR LANDING PAGE */
+
+@media screen and (max-width: 1840px) {
+  .wrapper-2 {
+    transform: scale(1.2);
+  }
+}
+
+@media screen and (max-width: 1540px) {
+  .wrapper-2 {
+    transform: scale(1);
+  }
+
+  .section-2 {
+    transform: scale(0.8);
+  }
+
+  .card-section {
+    transform: scale(0.7);
+  }
+
+  .faq-main-container {
+    padding: 50px 100px 30px 100px;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1367px) {
+  .faq-main-container {
+    padding: 50px 100px 30px 100px;
+    width: 70%;
+  }
+}
+/* CLOSING MEDIA QUERY FOR LANDING PAGE */
